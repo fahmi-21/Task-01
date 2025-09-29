@@ -1,4 +1,4 @@
-﻿// App infonramation:----------------------------------------------------------------------
+﻿// Hello massage and App infonramation:-----------------------------------------------------
 System.Console.WriteLine("Welcome to Our Carpet Cleaning Service ");
 System.Console.WriteLine("We provide the best cleaning service with the following prices ");
 System.Console.WriteLine("Small carpets: 30$ each");
@@ -24,7 +24,6 @@ decimal price = total + tax;
 
 
 //outputs----------------------------------------------------------------------------------
-
 System.Console.WriteLine($"Carpets cost:{total:C}");
 System.Console.WriteLine($"Tax: {tax:C}");
 System.Console.WriteLine($"Total Cost:{price:C}");
