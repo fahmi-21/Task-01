@@ -8,7 +8,7 @@ class Program
         int n;
         do
         {
-            Console.WriteLine(message);
+            Console.Write(message);
             string m = Console.ReadLine();
             if (!int.TryParse(m, out n) || n <= 0)
             {
@@ -48,16 +48,16 @@ class Program
         decimal price = total + tax;
 
         // Outputs:======================================================================================================
-        Console.WriteLine("🧾 --------- Invoice ---------");
+        Console.WriteLine(" =========== receipt ============");
         Console.WriteLine($"Date: {DateTime.Now:dd/MM/yyyy HH:mm}");
         Console.WriteLine($"Small Carpets ({small} x {smallCarpetPrice:C}) : {(small * smallCarpetPrice):C}");
         Console.WriteLine($"Large Carpets ({large} x {largeCarpetPrice:C}) : {(large * largeCarpetPrice):C}");
-        Console.WriteLine($"--------------------------------");
+        Console.WriteLine($"================================");
         Console.WriteLine($"Subtotal: {total,10:C}");
         Console.WriteLine($"Tax (6%): {tax,10:C}");
         Console.WriteLine($"Total: {price,10:C}");
-        Console.WriteLine("-------------------------------");
-        Console.WriteLine("✅ Thank you for using Islam's Carpet Cleaning Service!");
-        Console.WriteLine("📦 Your order has been received.");
+        Console.WriteLine("=================================");
+        Console.WriteLine("Thank you for using Islam's Carpet Cleaning Service!");
+        Console.WriteLine("Your order has been received.");
     }
 }
