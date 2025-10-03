@@ -1,6 +1,6 @@
 ﻿
 // Function to test the inputs :===================================================================================
-static int Positiveinteger(string message)
+int Positiveinteger(string message)
 {
     int n;
     do
@@ -36,7 +36,6 @@ static int Positiveinteger(string message)
     // Inputs:=======================================================================================================
     int small = Positiveinteger("Please enter the number of small carpets to be cleaned: ");
     int large = Positiveinteger("Please enter the number of large carpets to be cleaned: ");
-
     Console.WriteLine("--------------------------------------------------------------");
 
 
